@@ -76,7 +76,7 @@ img {
     object-fit: cover
  }
 
- @media screen and (max-width: 1230px) {
+ @media screen and (max-width: 700px) {
 
     .information {
         display: flex;
@@ -93,7 +93,7 @@ img {
        display: flex;
        flex-direction: column;
        left: 5px;
-       top: 1990px;
+       top: 1950px;
        max-width: 100%;
        position: absolute;
        border: none;
@@ -101,8 +101,8 @@ img {
     }
 
     img {
-        max-width: 30px;
-        height: 30px;
+        max-width: 20px;
+        height: 20px;
     }
 
     .profile-photo {
