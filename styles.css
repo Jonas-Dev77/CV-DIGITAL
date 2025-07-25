@@ -86,14 +86,14 @@ img {
         position: absolute;
         border: none;
         justify-content: flex-start;
-        left: -35px;
+        left: -37px;
         
 
     }
     .professional-experience {
        display: flex;
        flex-direction: column;
-       left: -35px;
+       left: -37px;
        top: 1950px;
        max-width: 100%;
        position: absolute;
