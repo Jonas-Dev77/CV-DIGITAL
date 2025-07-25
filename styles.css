@@ -81,22 +81,24 @@ img {
     .information {
         display: flex;
         flex-direction: column;
-        left: 5px;
-        top: 100px;
         top: 920px;
         max-width: 100%;
         position: absolute;
         border: none;
+        justify-content: flex-start;
+        left: -35px;
+        
 
     }
     .professional-experience {
        display: flex;
        flex-direction: column;
-       left: 5px;
-       top: 1949px;
+       left: -35px;
+       top: 1950px;
        max-width: 100%;
        position: absolute;
        border: none;
+       justify-content: flex-start
 
     }
 
