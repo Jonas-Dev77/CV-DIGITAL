@@ -2,129 +2,144 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #c2cec5;
-    font-family: "Poppins", sans-serif;
 
 }
 
-.information {
+body {
+    background-color: #666966;
+    font-family: "Poppins", sans-serif; 
+    padding: 20px;
+    
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.left-column {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.right-column {
     font-size: 20px;
-    float: right;
-    width: 100%;
-    border: 6px solid rgb(73, 70, 70);
-    padding: 25px;
-    margin: 40px;
-    margin-bottom: 1px;
-    position: fixed;
-    top: 30px;
-    right: 0;
-
-}
-
-
-.professional-experience {
-    font-size: 20px;
-    float: right;
-    width: 100%;
-    border: 6px solid rgb(73, 70, 70);
-    padding: 40px;
-    margin: 15px;
-    position: fixed;
-    top: 400px;
-    right: 0;
-}
-
-.soft-skills {
-    font-size: 15px;
-    margin-left: 30px;
-    margin-top: 450px;
-}
-
-.technical-skills {
-    font-size: 15px;
-    margin-left: 30px;
-    margin-top: 30px;
-}
-
-.training {
-    font-size: 15px;
-    margin-left: 30px;
-    margin-top: 20px;
+    width: 90%;
+    display: flex;
     position: absolute;
-
-}
-
-.personal-info {
-    font-size: 15px;
-    margin-left: 30px;
-    margin-top: 10px;
-    position: fixed;
-    top: 310px;
-
-}
-
-img {
-    width: 25px;
-    height: 25px;
-    border-radius: 50%;
-    margin-left: 1px;
+    right: 10px;
 }
 
 .profile-photo {
-    position: absolute;
-    top: 20px;
-    left: 70px;
-    width: 290px;
-    height: 290px;
-    border-radius: 70%;
-    opacity: 1.0;
-    object-fit: cover
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    display: block;
+    margin: 10px;
 }
 
-@media screen and (max-width: 700px) {
+.information {
 
+    background-color: rgb(178, 182, 178);
+    padding: 10px;
+    border: 5px solid #000;
+    font-size: 20px;
+    width: 75%;
+    display: flex;
+    position: absolute;
+    top: 50px;
+    right: 10px;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.professional-experience {
+
+    background-color:  rgb(178, 182, 178);
+    padding: 30px;
+    border: 5px solid #000;
+    font-size: 20px;
+    width: 75%;
+    display: flex;
+    position: absolute;
+    top: 400px;
+    right: 10px;
+    margin-bottom: 30px;
+    flex-direction: column;
+    gap: 10px;
+   
+}
+
+.linkedin-logo {
+    width: 20px;
+    vertical-align: middle;
+    margin-right: 5px;
+
+}
+.profile-photo {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 70%;
+    display: block;
+    margin: 10px;
+    left: 50px;
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .left-column,
+  .right-column {
+    width: 100%;
+  }
+
+  .profile-photo {
+    width: 150px;
+    height: 150px;
+  }
+
+  .information,
+  .professional-experience {
+    width: 100%;
+  }
+}
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+
+  
+  .right-column {
+    width: 100%;
+    left: 10px;
+    position: relative;
+    
+
+  }
+
+  .profile-photo {
+    width: 150px;
+    height: 150px;
+  }
+
+  .professional-experience {
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 270px;
+
+
+ 
+  }
     .information {
-        display: flex;
-        flex-direction: column;
-        top: 920px;
-        max-width: 100%;
-        position: absolute;
-        border: none;
-        justify-content: flex-start;
-        left: -37px;
-        height: auto;
-
-
-    }
-
-    .professional-experience {
-        display: flex;
-        flex-direction: column;
-        left: -37px;
-        top: 1950px;
-        max-width: 100%;
-        position: absolute;
-        border: none;
-        justify-content: flex-start;
-        height: auto;
-    }
-
-    img {
-        max-width: 20px;
-        height: 20px;
-    }
-
-    .profile-photo {
-        max-width: 250px;
-        height: 250px;
-        top: 30px;
-        left: 90px;
-    }
-
-    .personal-info {
-        position: absolute;
-        top: 300px;
-        left: 5px;
+        width: 100%;
+        box-sizing: border-box;
     }
 
 }
