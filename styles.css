@@ -9,13 +9,13 @@
 .information {
     font-size: 20px;
     float: right;
-    width: 70%;
+    width: 100%;
     border: 6px solid rgb(73, 70, 70);
-    padding: 40px;
-    margin: 20px;
+    padding: 25px;
+    margin: 40px;
     margin-bottom: 1px;
     position: fixed;
-    top: 0;
+    top: 30px;
     right: 0; 
 
 }
@@ -24,12 +24,12 @@
 .professional-experience {
     font-size: 20px;
     float: right;
-    width: 70%;
+    width: 100%;
     border: 6px solid rgb(73, 70, 70);
     padding: 40px;
-    margin: 20px;
+    margin: 15px;
     position: fixed;
-    top: 420px;
+    top: 400px;
     right: 0;   
 }
 
