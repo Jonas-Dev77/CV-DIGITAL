@@ -93,53 +93,31 @@ body {
 @media (max-width: 768px) {
   .container {
     flex-direction: column;
+   
   }
 
   .left-column,
   .right-column {
     width: 100%;
+    position: relative;
+    top: 10px;
   }
 
   .profile-photo {
     width: 150px;
     height: 150px;
+    margin: auto;
   }
 
-  .information,
-  .professional-experience {
-    width: 100%;
-  }
-}
-@media (max-width: 768px) {
-  .container {
-    flex-direction: column;
-  }
-
+    .information {
+       width: 100%;
+       box-sizing: border-box;
+       top: 15px;
+    }
   
-  .right-column {
-    width: 100%;
-    left: 10px;
-    position: relative;
-    
-
-  }
-
-  .profile-photo {
-    width: 149px;
-    height: 150px;
-  }
-
   .professional-experience {
     width: 100%;
     box-sizing: border-box;
-    margin-top: 270px;
-
-
- 
+    top: 870px;
   }
-    .information {
-        width: 100%;
-        box-sizing: border-box;
-    }
-
 }
